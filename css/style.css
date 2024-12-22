@@ -498,12 +498,13 @@ visibility 2500ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 50%;
     transform: translate(-50%, -50%);
 width: 408px;
-height: 584px;
+min-height: 584px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 background-color: #fcfcfc;
 padding-top: 24px;
 padding-bottom: 24px;
 padding-left: 24px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-p{
     padding-top: 72px;
@@ -532,7 +533,6 @@ justify-content: center;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 
 }
 .icon-close{
