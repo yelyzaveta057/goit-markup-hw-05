@@ -563,8 +563,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
    
 }
-.div-footer{
-    margin-bottom: 8px; 
+.div-footer-name{
+    margin-bottom: 8px;
+    position: relative;
+    
 }
 .name-footer{
     font-size: 12px;
@@ -587,11 +589,11 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-name{
     position: absolute;
-    
-    left: 16px ;
     top: 50%;
-    transform: translateY(-50%); 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    left: 16px;
+    transform: translateY(-50%);
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-name:focus{
     fill: #4D5AE5; 
