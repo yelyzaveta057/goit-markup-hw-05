@@ -567,7 +567,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .div-footer-name{
    
     position: relative;
-    margin-bottom: 16px
+    margin-bottom: 8px;
     
 }
 .name-footer{
@@ -600,6 +600,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .div-input{
     margin-bottom: 8px; 
+}
+.div-footer-name-textarea{
+    margin-bottom: 16px;
 }
 
 .svg-name{
