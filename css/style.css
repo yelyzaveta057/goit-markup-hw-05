@@ -593,7 +593,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-input:focus .input-name,
 .div-input:hover .input-name {
-    border-color: #4D5AE5;
+    border-color: #4D5AE5; 
     fill: #4D5AE5;
     
 }
