@@ -504,14 +504,19 @@
                     <textarea  id="user-comment" name="user-comment" placeholder="Text input" class="textera-footer"> </textarea>
                   </div>
                   <div class="comment-box-div">
-                    <input class="comment-box" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
+                    <input class="comment-box visually-hidden" id="user-privacy" required type="checkbox" value="true" name="user-privacy" />
                     <label class="accept-lable" for="user-privacy" >
+                     
                       <span class="span-accept"> 
-                        <svg width="10" height="8" class="svg-checkbox">
+                        <svg class="svg-checkbox" width="10" height="8" >
                           <use href="./images/icons.svg#icon-check"></use>
                        </svg>
                       </span>
-                    </label>  
+                      I accept the terms and conditions of the
+                      <a href="#" class="privacy">Privacy Policy</a>
+                  
+                    </label> 
+                    <button class="button-last">Send</button>
                       </div>
                     
                 </form>
