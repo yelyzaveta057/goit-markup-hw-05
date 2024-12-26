@@ -702,6 +702,7 @@ cursor: pointer;
   
 .privacy{
     text-decoration: underline;
+    color:#4d5ae5;
 }
 .button-last{
     display: block; 
