@@ -655,6 +655,10 @@ cursor: pointer;
     background-color: #404bbf;
     
   }
+  .modal-button:focus{
+    background-color: #404bbf;
+    border: none;
+  }
   .modal-button:hover ,
   .imodal-button:focus {
     background-color: #404bbf;
