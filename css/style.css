@@ -649,8 +649,10 @@ cursor: pointer;
 
  
  .modal-button:hover .icon-close,
-  .imodal-button:focus .icon-close{
+  .modal-button:focus .icon-close{
     fill: #ffffff;
+    border: none;
+    background-color: #404bbf;
     
   }
   .modal-button:hover ,
