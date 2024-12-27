@@ -646,17 +646,15 @@ cursor: pointer;
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
- .modal-button:hover{
-    background-color: #404bbf;
-    border: none;
- }
+ .modal-button:hover,
  .modal-button:focus{
     background-color: #404bbf;
     border: none;
  }
  
-  .icon-close:hover,
-  .icon-close:focus{
+ 
+ .modal-button:hover .icon-close,
+  .imodal-button:focus .icon-close{
     fill: #ffffff;
   }
   .comment-box:checked+.accept-lable > .span-accept {
